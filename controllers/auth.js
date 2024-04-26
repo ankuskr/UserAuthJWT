@@ -9,6 +9,7 @@ exports.signup = async (req, res) => {
       return res.status(400).json({
         success: false,
         msg: "Email already exists",
+        //Hello there
       });
     }
     let hashPassword;
